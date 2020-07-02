@@ -1,0 +1,112 @@
+	a, a:active, a:hover, a:visited {
+		color:inherit;
+		text-decoration: none;
+	}
+	
+	.buttonBar {
+		background: #7FDBFF;
+		padding: 1vh;
+		margin: auto;
+	}
+	.postBox {
+		margin: 0 10vh;
+		padding: 1vh 0;
+	}	
+	.postHead {
+		font-size: 2em;
+		font-weight: bold;
+		text-align: left;
+	}	
+	.postDate {
+		background: #7FDBFF;
+		text-align: right;
+		border: 1px solid #001f3f;
+		border-radius: 1vh;
+		padding: 0.5vh;
+	}		
+	.postText {
+		text-align:left;
+		padding: 0.5vh;
+		border: 1px solid #001f3f;
+		margin: 0 1vh;
+		border-top: 0;
+	}	
+	body {
+		background:url('../images/sqr.png');							
+		height: 100%;
+	}	
+	#content {
+		width: 960px;
+		height:100vh;
+		margin: 2vh auto;
+		font-size: 1em;
+		font-family: "Lucida Console", Monaco, monospace;
+		text-align:center;
+		background:url('../images/gravel.png');
+		overflow: auto;
+	}
+	.header {
+		font-size: 10vh;
+	}
+	.footer {
+		position: fixed;
+		bottom:0
+	}	
+	input, button {
+		width: 17%;
+		border: 0.1vh solid #001f3f;
+		border-radius: 1vh;
+		padding: 1vh;
+		box-sizing:border-box;
+		font-family: "Lucida Console", Monaco, monospace;
+	}	
+	button:hover {
+		background-color: #001f3f;
+		color: white;
+	}	
+	button:active {
+		  background-color: #ffcc00;
+	}
+	#followButton {
+		margin: 1vh 0 0 54vh;
+		background: #7FDBFF;
+		
+	}
+	form {
+		display: inline-block;
+	}	
+	label {
+		float: left;
+	}
+	#loginbox {
+		width: 25%;
+		border: 0.1vh solid #001f3f;
+		padding:1vh;
+		margin: auto;
+		border-radius: 1vh;
+		background: #7FDBFF;
+		box-shadow: 5px 5px #666;
+	}
+	form#postForm {
+		width: 90%;
+		padding: 1vh;
+	}
+	form#searchForm {
+		width: 90%;
+		padding: 1vh;
+	}
+	button.postBtn {
+		float: right;
+		margin:1vh;
+		margin-right: 5vh;
+	}
+	label.postLabel {
+		font-size: 1.5em;
+	}
+	#postInput {
+		width: 50%;
+	}
+	.loginStatus {
+		text-align: right;
+		padding-right: 1vh;
+	}
